@@ -43,7 +43,7 @@ public class EventHandler implements RequestHandler<ScheduledEvent, String> {
      *   >status:IN TRANSIT
      *   >timestamp: 1573410202
      *   >Other fields like...tracking history and address
-     */
+     ***/
     public String handleRequest(ScheduledEvent scheduledEvent, Context context) {
 
         final LambdaLogger logger = context.getLogger();
